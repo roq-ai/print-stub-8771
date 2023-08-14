@@ -1,0 +1,1802 @@
+[
+  {
+    "store": [
+      {
+        "id": "a9778a8b-8a51-44fe-8b84-ea1d6784638a",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T16:21:04.813Z",
+        "updated_at": "2023-08-14T00:22:01.497Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4a6bcd62-55c2-471a-9c57-76513b4c1b2a",
+        "name": "Fashionista",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-14T02:01:04.148Z",
+        "updated_at": "2023-08-13T10:54:04.359Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b5c0a3ea-fae9-4e87-9f39-3d64b5349300",
+        "name": "TechZone",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T08:40:28.297Z",
+        "updated_at": "2023-08-13T06:47:38.950Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4388c600-1f90-4838-bfc2-c3ebcd2e2cb0",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-13T17:42:49.422Z",
+        "updated_at": "2023-08-13T22:37:45.006Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "450ed95b-c295-4a19-a141-9df887443618",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-14T05:41:15.623Z",
+        "updated_at": "2023-08-13T12:39:30.878Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "a4e0cd38-a365-4990-a39b-e686d79a2cdf",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-13T23:45:57.736Z",
+        "updated_at": "2023-08-13T21:33:20.746Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "b5c0a3ea-fae9-4e87-9f39-3d64b5349300"
+      },
+      {
+        "id": "02b85824-2e2c-4e98-8496-f8b002382137",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-13T06:11:08.822Z",
+        "updated_at": "2023-08-13T11:43:20.797Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "450ed95b-c295-4a19-a141-9df887443618"
+      },
+      {
+        "id": "85a13343-04fb-4dcb-8f09-8bbf2e676d5a",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-13T11:12:39.199Z",
+        "updated_at": "2023-08-14T02:31:11.469Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "4a6bcd62-55c2-471a-9c57-76513b4c1b2a"
+      },
+      {
+        "id": "bb5af4fc-6e12-4d95-8fcd-8b3e1af71998",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T13:37:50.638Z",
+        "updated_at": "2023-08-13T07:54:51.818Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "450ed95b-c295-4a19-a141-9df887443618"
+      },
+      {
+        "id": "c7eee64b-934b-42db-923e-b334d79c5dfb",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T20:43:25.762Z",
+        "updated_at": "2023-08-13T23:16:02.484Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "4388c600-1f90-4838-bfc2-c3ebcd2e2cb0"
+      }
+    ],
+    "product": [
+      {
+        "id": "87613492-4475-4274-9f65-5e39b2718000",
+        "name": "iPhone X",
+        "price": 63958,
+        "created_at": "2023-08-13T23:05:46.368Z",
+        "updated_at": "2023-08-13T14:15:35.407Z",
+        "store_id": "4a6bcd62-55c2-471a-9c57-76513b4c1b2a"
+      },
+      {
+        "id": "7608642a-57c2-4bb4-97a9-8b8edb06ce17",
+        "name": "Nike Air Max",
+        "price": 2789,
+        "created_at": "2023-08-13T16:18:27.080Z",
+        "updated_at": "2023-08-13T21:46:33.972Z",
+        "store_id": "450ed95b-c295-4a19-a141-9df887443618"
+      },
+      {
+        "id": "9d2b4fdc-a37e-4d12-aff9-be3bb895288d",
+        "name": "Sony PlayStation 5",
+        "price": 92356,
+        "created_at": "2023-08-13T21:05:12.497Z",
+        "updated_at": "2023-08-14T05:31:39.679Z",
+        "store_id": "450ed95b-c295-4a19-a141-9df887443618"
+      },
+      {
+        "id": "4af28e64-b560-42dc-9b88-13382a375616",
+        "name": "Samsung 4K Smart TV",
+        "price": 91560,
+        "created_at": "2023-08-13T16:16:02.408Z",
+        "updated_at": "2023-08-13T13:21:28.211Z",
+        "store_id": "b5c0a3ea-fae9-4e87-9f39-3d64b5349300"
+      },
+      {
+        "id": "e35c7388-444a-4c8f-97d5-c078ccb68f81",
+        "name": "Fitbit Charge 4",
+        "price": 50423,
+        "created_at": "2023-08-13T15:47:59.341Z",
+        "updated_at": "2023-08-14T05:26:51.403Z",
+        "store_id": "450ed95b-c295-4a19-a141-9df887443618"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a55514bf-51f1-4889-9ea8-1bd07e7fc519",
+        "email": "Jerome49@hotmail.com",
+        "firstName": "Aubrey",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "00ef8d52-3ffa-40dc-b0d2-d7b1caddd5ca",
+        "email": "Anabelle.Paucek@yahoo.com",
+        "firstName": "Reymundo",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12301198",
+        "tenantId": null
+      },
+      {
+        "reference": "73597cc4-19e0-4e3e-9ad7-8bd1af47771f",
+        "email": "Domenic61@yahoo.com",
+        "firstName": "Allene",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "133ca0b9-3ba5-4102-9a9b-1e2375996b64",
+        "email": "Juana_Rohan5@yahoo.com",
+        "firstName": "Magali",
+        "lastName": "Upton-Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23404855",
+        "tenantId": null
+      },
+      {
+        "reference": "5a0969fe-c353-41fc-966d-bb72dbca1b45",
+        "email": "Jocelyn.Hettinger@yahoo.com",
+        "firstName": "Vivianne",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34842161",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "742cf089-b6af-466a-8ff0-9b215db34c6e",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-14T01:03:01.668Z",
+        "updated_at": "2023-08-13T19:03:37.513Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "5954b4c2-1fec-424d-92d3-436bbecb5606",
+        "name": "Fashionista",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T19:57:14.994Z",
+        "updated_at": "2023-08-13T07:29:57.556Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "40d3fb6d-c15f-4700-a195-91f5c36d1ca9",
+        "name": "TechZone",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-14T01:44:52.407Z",
+        "updated_at": "2023-08-14T00:40:17.806Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "240c4779-8e45-4f9a-b1fe-4f2374a9daee",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-14T02:39:36.735Z",
+        "updated_at": "2023-08-14T00:21:04.865Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "cce30f82-39d0-4b11-9985-11e2d2345b46",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-13T07:24:17.795Z",
+        "updated_at": "2023-08-14T05:57:00.504Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "97c55eda-1582-40a7-867e-bb9de16eedd0",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-13T13:30:13.039Z",
+        "updated_at": "2023-08-14T05:22:19.039Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "40d3fb6d-c15f-4700-a195-91f5c36d1ca9"
+      },
+      {
+        "id": "f7fb6cd2-7c4e-4112-a7fa-13035d4ccf8c",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-14T05:38:14.227Z",
+        "updated_at": "2023-08-14T05:58:43.683Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "240c4779-8e45-4f9a-b1fe-4f2374a9daee"
+      },
+      {
+        "id": "0e260738-df07-4bef-9caa-e4c0ccd18526",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-13T22:28:22.592Z",
+        "updated_at": "2023-08-13T09:26:01.441Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "5954b4c2-1fec-424d-92d3-436bbecb5606"
+      },
+      {
+        "id": "3a55188e-670a-46af-b354-fb549ec0f649",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-14T03:28:55.276Z",
+        "updated_at": "2023-08-13T17:18:27.917Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "5954b4c2-1fec-424d-92d3-436bbecb5606"
+      },
+      {
+        "id": "382d016d-7b13-4c8e-8ed6-5b4a1edcf999",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-14T03:54:38.994Z",
+        "updated_at": "2023-08-13T11:45:51.986Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "742cf089-b6af-466a-8ff0-9b215db34c6e"
+      }
+    ],
+    "product": [
+      {
+        "id": "57766f38-6788-4d78-9b01-6bbcfbc00029",
+        "name": "iPhone 12",
+        "price": 81469,
+        "created_at": "2023-08-14T01:38:07.461Z",
+        "updated_at": "2023-08-13T12:09:13.030Z",
+        "store_id": "cce30f82-39d0-4b11-9985-11e2d2345b46"
+      },
+      {
+        "id": "405d6bd6-cd23-403a-8458-d91a033602da",
+        "name": "Nike Air Max",
+        "price": 92324,
+        "created_at": "2023-08-13T14:21:56.668Z",
+        "updated_at": "2023-08-13T20:46:01.460Z",
+        "store_id": "742cf089-b6af-466a-8ff0-9b215db34c6e"
+      },
+      {
+        "id": "e98c2c48-a611-4208-89a7-554014668bdd",
+        "name": "Sony PlayStation 5",
+        "price": 92826,
+        "created_at": "2023-08-13T07:43:25.102Z",
+        "updated_at": "2023-08-13T12:31:30.839Z",
+        "store_id": "40d3fb6d-c15f-4700-a195-91f5c36d1ca9"
+      },
+      {
+        "id": "d81bb4b9-a82d-40b5-9f47-ff7973d080ac",
+        "name": "Levi's 501 Jeans",
+        "price": 27195,
+        "created_at": "2023-08-13T17:21:31.578Z",
+        "updated_at": "2023-08-13T12:19:18.957Z",
+        "store_id": "cce30f82-39d0-4b11-9985-11e2d2345b46"
+      },
+      {
+        "id": "b3c2c1b8-bef4-4d6e-9458-2939e95a702f",
+        "name": "L'Oreal Paris Mascara",
+        "price": 66462,
+        "created_at": "2023-08-13T15:43:55.148Z",
+        "updated_at": "2023-08-14T05:52:04.998Z",
+        "store_id": "240c4779-8e45-4f9a-b1fe-4f2374a9daee"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d326b6ba-0801-4dab-9b52-73d93123d943",
+        "email": "Vada15@gmail.com",
+        "firstName": "Estevan",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/445.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ccc5895a-95df-4d36-bee7-7b6f526b898e",
+        "email": "Clementine8@yahoo.com",
+        "firstName": "Jennifer",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78698938",
+        "tenantId": null
+      },
+      {
+        "reference": "d2e1336c-d21f-41dd-8001-a85c7c207be3",
+        "email": "Haven.Altenwerth50@hotmail.com",
+        "firstName": "Wilma",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/117.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "abc86d94-864b-49c3-9220-b751158d58c5",
+        "email": "Cassandra13@yahoo.com",
+        "firstName": "Reyes",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68083099",
+        "tenantId": null
+      },
+      {
+        "reference": "cae64740-7154-4c28-ae10-9baef2d609b8",
+        "email": "Dennis_Kilback-Abbott97@yahoo.com",
+        "firstName": "Trevor",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26169916",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "893bd952-c850-46d3-a319-d616d1d42c35",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T15:59:52.388Z",
+        "updated_at": "2023-08-14T02:27:50.149Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "37f27cf6-92a7-4ad0-8b0e-acdb7c6709a7",
+        "name": "Fashionista",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T23:58:40.582Z",
+        "updated_at": "2023-08-13T09:15:08.080Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "a249813b-9758-4f92-8a08-d1f667105b2c",
+        "name": "TechZone",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T08:01:07.094Z",
+        "updated_at": "2023-08-13T06:26:36.472Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9b3ca5da-cd88-4121-9d1e-739261065969",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-14T05:00:59.800Z",
+        "updated_at": "2023-08-13T20:31:56.565Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "bcf81c04-9123-45b3-a2ed-9b2740e2b5e9",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-13T10:15:51.119Z",
+        "updated_at": "2023-08-13T08:30:08.733Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "c7feca7d-44eb-4831-851f-b37c017ff56d",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-13T11:59:41.710Z",
+        "updated_at": "2023-08-13T12:08:28.085Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "bcf81c04-9123-45b3-a2ed-9b2740e2b5e9"
+      },
+      {
+        "id": "739fa2c0-74b9-458e-b336-fd7917c529f8",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-13T10:01:34.166Z",
+        "updated_at": "2023-08-14T04:32:28.378Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "37f27cf6-92a7-4ad0-8b0e-acdb7c6709a7"
+      },
+      {
+        "id": "b1a123c4-239b-44d1-a8ce-19ca7ab705ae",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-14T00:59:29.074Z",
+        "updated_at": "2023-08-13T18:19:05.216Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "a249813b-9758-4f92-8a08-d1f667105b2c"
+      },
+      {
+        "id": "fec3b453-3fda-4b29-8e50-4b4598ae38b2",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T23:32:44.428Z",
+        "updated_at": "2023-08-14T03:01:24.829Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "9b3ca5da-cd88-4121-9d1e-739261065969"
+      },
+      {
+        "id": "b2f97c6e-f676-4817-881b-6698b089a46b",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T06:35:07.408Z",
+        "updated_at": "2023-08-13T10:02:28.148Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "893bd952-c850-46d3-a319-d616d1d42c35"
+      }
+    ],
+    "product": [
+      {
+        "id": "005b75d6-01f7-456f-9c34-6bfb22670322",
+        "name": "iPhone X",
+        "price": 45351,
+        "created_at": "2023-08-13T19:14:10.758Z",
+        "updated_at": "2023-08-13T15:10:21.330Z",
+        "store_id": "bcf81c04-9123-45b3-a2ed-9b2740e2b5e9"
+      },
+      {
+        "id": "31c56e4a-fb22-471b-b7be-36a51d56db48",
+        "name": "Nike Air Max",
+        "price": 64320,
+        "created_at": "2023-08-13T16:21:55.854Z",
+        "updated_at": "2023-08-14T03:43:06.735Z",
+        "store_id": "37f27cf6-92a7-4ad0-8b0e-acdb7c6709a7"
+      },
+      {
+        "id": "4e98f106-2378-49fd-b771-98b57ec12c83",
+        "name": "Sony PlayStation 5",
+        "price": 66173,
+        "created_at": "2023-08-13T16:00:53.544Z",
+        "updated_at": "2023-08-13T07:22:25.109Z",
+        "store_id": "9b3ca5da-cd88-4121-9d1e-739261065969"
+      },
+      {
+        "id": "0db0fb26-4e59-450d-8752-a5bf51942289",
+        "name": "Samsung 4K Smart TV",
+        "price": 60358,
+        "created_at": "2023-08-14T04:27:13.016Z",
+        "updated_at": "2023-08-14T03:18:22.453Z",
+        "store_id": "893bd952-c850-46d3-a319-d616d1d42c35"
+      },
+      {
+        "id": "4cc884d6-4ebf-48c5-9116-72decc03aba2",
+        "name": "Fitbit Charge 4",
+        "price": 10796,
+        "created_at": "2023-08-14T04:44:16.783Z",
+        "updated_at": "2023-08-13T15:39:46.535Z",
+        "store_id": "bcf81c04-9123-45b3-a2ed-9b2740e2b5e9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f188f3e-f0f6-4700-9ab3-3235329834ee",
+        "email": "Wilson63@yahoo.com",
+        "firstName": "Sanford",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/284.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3ccd89c-c613-4e15-b222-b2a76aca7f50",
+        "email": "Mattie.Larkin84@yahoo.com",
+        "firstName": "Elna",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/442.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "125982c3-8ee8-453c-8f6d-91c94e42ed22",
+        "email": "Jillian.Yost@hotmail.com",
+        "firstName": "Sydni",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10262507",
+        "tenantId": null
+      },
+      {
+        "reference": "fd17f091-e408-4b2a-be1f-e32daa602afd",
+        "email": "Marcelino.Bartoletti65@gmail.com",
+        "firstName": "Jett",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26744001",
+        "tenantId": null
+      },
+      {
+        "reference": "092820c3-1c48-4445-b960-399e4f851276",
+        "email": "Hadley.Sipes@hotmail.com",
+        "firstName": "Serena",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50080225",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "63f2fb1c-e357-4e8d-97fd-ad35fa1b401b",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-14T01:33:28.627Z",
+        "updated_at": "2023-08-13T07:55:23.684Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "63aa780d-b4de-4b42-a2a6-095efe119296",
+        "name": "Fashionista Boutique",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-14T01:18:33.750Z",
+        "updated_at": "2023-08-13T18:36:18.619Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4b6cf0e0-e843-43d4-a622-5cb1846c2450",
+        "name": "TechZone Electronics",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T17:45:00.160Z",
+        "updated_at": "2023-08-14T02:19:53.479Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "aad6632b-b962-4c31-9d2f-3396c0e5b26c",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-13T15:34:05.897Z",
+        "updated_at": "2023-08-13T16:53:51.374Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "c1a1bfe2-0a51-4404-91d5-481f459b87d2",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-13T23:04:24.588Z",
+        "updated_at": "2023-08-13T13:11:01.090Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "5c77614a-2362-4402-9c58-20225d8b9794",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-14T01:54:13.396Z",
+        "updated_at": "2023-08-13T16:39:22.625Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "63aa780d-b4de-4b42-a2a6-095efe119296"
+      },
+      {
+        "id": "f5dc80d4-e817-44ae-9dda-9ca44267157f",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-14T00:24:42.230Z",
+        "updated_at": "2023-08-13T06:23:51.394Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "63aa780d-b4de-4b42-a2a6-095efe119296"
+      },
+      {
+        "id": "7eba6963-f2e1-4cd0-8317-a6b0afec4632",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-14T03:30:38.635Z",
+        "updated_at": "2023-08-13T06:24:25.336Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "4b6cf0e0-e843-43d4-a622-5cb1846c2450"
+      },
+      {
+        "id": "5125e241-654b-4a4c-b475-298c68f40cac",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T11:03:22.723Z",
+        "updated_at": "2023-08-13T09:44:41.496Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "4b6cf0e0-e843-43d4-a622-5cb1846c2450"
+      },
+      {
+        "id": "bce67b76-8a1d-4355-9ce6-0a3d3b6c36f7",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T16:00:32.717Z",
+        "updated_at": "2023-08-13T15:18:30.833Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "4b6cf0e0-e843-43d4-a622-5cb1846c2450"
+      }
+    ],
+    "product": [
+      {
+        "id": "d7484280-9e7b-47c7-9343-b0ad7b39ff26",
+        "name": "iPhone 12",
+        "price": 26434,
+        "created_at": "2023-08-14T03:05:39.151Z",
+        "updated_at": "2023-08-13T08:31:52.204Z",
+        "store_id": "63aa780d-b4de-4b42-a2a6-095efe119296"
+      },
+      {
+        "id": "e37fc4d1-aa25-4dbf-9f39-6aac39b18092",
+        "name": "Nike Air Max",
+        "price": 16206,
+        "created_at": "2023-08-13T20:08:21.087Z",
+        "updated_at": "2023-08-13T08:15:41.739Z",
+        "store_id": "c1a1bfe2-0a51-4404-91d5-481f459b87d2"
+      },
+      {
+        "id": "d09bea42-b9e9-4de6-8c4c-cc9087204a03",
+        "name": "Sony PlayStation 5",
+        "price": 5427,
+        "created_at": "2023-08-13T17:02:13.223Z",
+        "updated_at": "2023-08-13T15:46:56.777Z",
+        "store_id": "63aa780d-b4de-4b42-a2a6-095efe119296"
+      },
+      {
+        "id": "47419125-1e68-47d1-a02b-97623bbfb62a",
+        "name": "KitchenAid Stand Mixer",
+        "price": 86595,
+        "created_at": "2023-08-13T15:20:54.625Z",
+        "updated_at": "2023-08-13T16:15:14.715Z",
+        "store_id": "4b6cf0e0-e843-43d4-a622-5cb1846c2450"
+      },
+      {
+        "id": "fb5e894b-a9ce-45ec-81f5-c7328670b12c",
+        "name": "Fitbit Charge 4",
+        "price": 17506,
+        "created_at": "2023-08-13T17:53:40.740Z",
+        "updated_at": "2023-08-13T15:16:19.407Z",
+        "store_id": "4b6cf0e0-e843-43d4-a622-5cb1846c2450"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bd27f442-c4cf-4a48-a3a3-d81de2c0f220",
+        "email": "Dan_Crist@hotmail.com",
+        "firstName": "Craig",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/34.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46deaeaa-0307-47c7-80df-6720a62aef9c",
+        "email": "Kayleigh.Lesch75@hotmail.com",
+        "firstName": "Lavada",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/669.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5df6d67a-72bf-47ea-89de-c27b53771a80",
+        "email": "Kyle45@hotmail.com",
+        "firstName": "Jarrett",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7609905",
+        "tenantId": null
+      },
+      {
+        "reference": "8eb97285-4445-44d1-9039-9235082d846f",
+        "email": "Mossie18@gmail.com",
+        "firstName": "Maritza",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46117766",
+        "tenantId": null
+      },
+      {
+        "reference": "852a842a-792a-4a74-8772-0f84f39f5870",
+        "email": "Jeffery_Tillman@hotmail.com",
+        "firstName": "Floyd",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "442e5905-0289-4568-955b-bca406d7257b",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T06:52:22.594Z",
+        "updated_at": "2023-08-14T05:48:55.443Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9882ef16-0b1d-45b1-a02b-9054398c3968",
+        "name": "Fashionista Boutique",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T22:02:46.637Z",
+        "updated_at": "2023-08-14T00:43:38.696Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "17f448c8-4694-47ee-90a6-86b903ddf259",
+        "name": "TechZone Electronics",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T16:16:58.424Z",
+        "updated_at": "2023-08-13T09:47:35.028Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "3ac57d90-2b74-4640-a975-0558b9d6bfdb",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-13T13:23:37.393Z",
+        "updated_at": "2023-08-13T22:21:43.613Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "72a72fed-fb82-4756-aa1f-aef9b2bc0fa2",
+        "name": "Pet Paradise",
+        "address": "654 Pine Road",
+        "created_at": "2023-08-13T15:06:44.767Z",
+        "updated_at": "2023-08-13T17:36:10.803Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "9eb23c8e-bea6-4a72-8409-dc570a88a80c",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-14T04:28:30.386Z",
+        "updated_at": "2023-08-13T20:41:05.751Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "442e5905-0289-4568-955b-bca406d7257b"
+      },
+      {
+        "id": "68148d61-29aa-46c9-988c-de9b48a7acce",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-13T06:09:01.241Z",
+        "updated_at": "2023-08-13T18:04:39.291Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "72a72fed-fb82-4756-aa1f-aef9b2bc0fa2"
+      },
+      {
+        "id": "ac69f4bf-a2d1-4d6a-bafd-c4871e137e3d",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-14T01:28:23.966Z",
+        "updated_at": "2023-08-13T19:19:37.397Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "442e5905-0289-4568-955b-bca406d7257b"
+      },
+      {
+        "id": "3414c009-49cb-46dc-94f5-b9062bfec75c",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T08:03:17.933Z",
+        "updated_at": "2023-08-14T01:39:26.874Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "17f448c8-4694-47ee-90a6-86b903ddf259"
+      },
+      {
+        "id": "31739384-80a2-40f1-8330-3790eead484c",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T21:59:31.322Z",
+        "updated_at": "2023-08-14T03:47:14.000Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "442e5905-0289-4568-955b-bca406d7257b"
+      }
+    ],
+    "product": [
+      {
+        "id": "73f7826e-6e70-4fdd-9ffd-2fa615119c24",
+        "name": "iPhone 12",
+        "price": 38681,
+        "created_at": "2023-08-13T19:41:26.185Z",
+        "updated_at": "2023-08-13T23:19:38.639Z",
+        "store_id": "72a72fed-fb82-4756-aa1f-aef9b2bc0fa2"
+      },
+      {
+        "id": "a83a4356-9f10-4c82-952b-d4a43579a437",
+        "name": "Nike Air Max",
+        "price": 29701,
+        "created_at": "2023-08-13T15:17:11.996Z",
+        "updated_at": "2023-08-13T21:09:28.474Z",
+        "store_id": "72a72fed-fb82-4756-aa1f-aef9b2bc0fa2"
+      },
+      {
+        "id": "0f6755f5-f417-4671-afca-5026399ed422",
+        "name": "Sony PlayStation 5",
+        "price": 55209,
+        "created_at": "2023-08-13T14:35:47.675Z",
+        "updated_at": "2023-08-13T15:39:48.408Z",
+        "store_id": "442e5905-0289-4568-955b-bca406d7257b"
+      },
+      {
+        "id": "b02cde88-fabf-4a12-8549-01190152407d",
+        "name": "KitchenAid Stand Mixer",
+        "price": 67637,
+        "created_at": "2023-08-14T05:29:02.586Z",
+        "updated_at": "2023-08-13T12:18:50.032Z",
+        "store_id": "3ac57d90-2b74-4640-a975-0558b9d6bfdb"
+      },
+      {
+        "id": "debee5d8-5047-4563-8a17-ad88302732a1",
+        "name": "Fitbit Charge 4",
+        "price": 58,
+        "created_at": "2023-08-14T00:27:40.110Z",
+        "updated_at": "2023-08-13T08:43:32.736Z",
+        "store_id": "3ac57d90-2b74-4640-a975-0558b9d6bfdb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bc61893c-4edc-41eb-8d01-75ad7eee9c7d",
+        "email": "Claude.Hettinger@gmail.com",
+        "firstName": "Oran",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8961108",
+        "tenantId": null
+      },
+      {
+        "reference": "212bad61-9ca2-44a1-a038-1fd50049c99c",
+        "email": "Morris.Fay57@gmail.com",
+        "firstName": "Kaelyn",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/494.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "59bbf171-87c2-432a-b5ef-327d3a64e9cb",
+        "email": "Zelma_Flatley@hotmail.com",
+        "firstName": "Damion",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34510232",
+        "tenantId": null
+      },
+      {
+        "reference": "58bece5f-bddf-4216-8ee2-7592f4dd4be6",
+        "email": "Kariane_Bailey@gmail.com",
+        "firstName": "Helmer",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/538.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f873bc89-5997-48cb-9551-abec84238a1c",
+        "email": "Carli48@gmail.com",
+        "firstName": "Orlando",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/909.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "253010c3-c7e0-466f-b4ad-1585620810f4",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T22:40:40.010Z",
+        "updated_at": "2023-08-13T18:58:40.641Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0c779f0a-4319-48a9-a16e-3294f4e9c5a5",
+        "name": "Fashionista",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T13:28:35.514Z",
+        "updated_at": "2023-08-13T16:16:03.600Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "76c684e2-f546-446c-8d2e-6690f0b69b33",
+        "name": "TechZone",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-14T00:24:42.680Z",
+        "updated_at": "2023-08-14T03:42:54.681Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8819609b-b6d8-4244-a52d-b28c11bda60d",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-14T04:46:18.286Z",
+        "updated_at": "2023-08-13T14:28:29.223Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "26119556-f91c-4054-b8c8-c2df9fb66032",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-13T10:29:12.470Z",
+        "updated_at": "2023-08-13T15:27:58.974Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "b2447472-f4b8-45e3-a7d6-e8ce5cdbe694",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-13T06:46:50.872Z",
+        "updated_at": "2023-08-13T16:13:50.255Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "253010c3-c7e0-466f-b4ad-1585620810f4"
+      },
+      {
+        "id": "32743003-f175-4027-af5f-9b5b45d3abff",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-14T02:45:31.971Z",
+        "updated_at": "2023-08-14T03:15:47.507Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "76c684e2-f546-446c-8d2e-6690f0b69b33"
+      },
+      {
+        "id": "8003f40f-8c7f-491d-ac53-8e24abbf6bdf",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-13T17:00:11.509Z",
+        "updated_at": "2023-08-13T23:36:55.781Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "0c779f0a-4319-48a9-a16e-3294f4e9c5a5"
+      },
+      {
+        "id": "375ebf3a-710e-42f0-9c2d-c401d4cb77e8",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T14:35:27.442Z",
+        "updated_at": "2023-08-13T23:28:05.959Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "0c779f0a-4319-48a9-a16e-3294f4e9c5a5"
+      },
+      {
+        "id": "33a63391-05b4-4b1c-a655-af6180471f2e",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T18:43:45.573Z",
+        "updated_at": "2023-08-14T02:24:09.570Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "26119556-f91c-4054-b8c8-c2df9fb66032"
+      }
+    ],
+    "product": [
+      {
+        "id": "824fe6fa-4751-4481-a4f0-ca24b0e360e7",
+        "name": "iPhone X",
+        "price": 76956,
+        "created_at": "2023-08-13T22:11:09.933Z",
+        "updated_at": "2023-08-13T20:10:52.374Z",
+        "store_id": "0c779f0a-4319-48a9-a16e-3294f4e9c5a5"
+      },
+      {
+        "id": "25b222df-180d-4f52-a56a-01898d1d248a",
+        "name": "Nike Air Max",
+        "price": 20507,
+        "created_at": "2023-08-13T11:29:20.675Z",
+        "updated_at": "2023-08-13T11:06:48.858Z",
+        "store_id": "253010c3-c7e0-466f-b4ad-1585620810f4"
+      },
+      {
+        "id": "ce7652ec-a2da-4ed1-9e9e-5cde3409addf",
+        "name": "Sony PlayStation 5",
+        "price": 63242,
+        "created_at": "2023-08-13T17:37:40.669Z",
+        "updated_at": "2023-08-13T18:42:47.935Z",
+        "store_id": "76c684e2-f546-446c-8d2e-6690f0b69b33"
+      },
+      {
+        "id": "bdb7d6da-438d-4264-a38a-eb4e3e526f9d",
+        "name": "Samsung 4K Smart TV",
+        "price": 63153,
+        "created_at": "2023-08-13T22:36:27.311Z",
+        "updated_at": "2023-08-14T00:27:08.491Z",
+        "store_id": "76c684e2-f546-446c-8d2e-6690f0b69b33"
+      },
+      {
+        "id": "2d745dc0-8ab0-4c10-9109-8552695f3cbc",
+        "name": "Fitbit Charge 4",
+        "price": 50360,
+        "created_at": "2023-08-14T02:49:09.627Z",
+        "updated_at": "2023-08-13T23:15:42.336Z",
+        "store_id": "253010c3-c7e0-466f-b4ad-1585620810f4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "86e72335-5ff3-4ace-9ea2-f7b5b047bb6e",
+        "email": "Crystal99@gmail.com",
+        "firstName": "Frederic",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98455954",
+        "tenantId": null
+      },
+      {
+        "reference": "ea464a45-4d0f-4508-9ba1-6f136411ca02",
+        "email": "Claudie95@hotmail.com",
+        "firstName": "Timmothy",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21850448",
+        "tenantId": null
+      },
+      {
+        "reference": "91e862fe-40f5-450d-8e35-c393d62f6918",
+        "email": "Hassan36@gmail.com",
+        "firstName": "Amani",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83548742",
+        "tenantId": null
+      },
+      {
+        "reference": "d38780fb-fc97-4192-b174-bdae62d5a949",
+        "email": "Regan_Reichert55@yahoo.com",
+        "firstName": "Nina",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62516a22-a55e-4b94-8097-d93a6bc7f0cc",
+        "email": "Rachelle7@hotmail.com",
+        "firstName": "Lennie",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/947.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "dc845df9-1202-43b5-a04a-4bacd5fc1676",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T22:03:11.479Z",
+        "updated_at": "2023-08-14T05:30:48.605Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "67559657-9f97-49d2-b873-8f69d09bb4b5",
+        "name": "Fashionista Boutique",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-14T02:55:13.142Z",
+        "updated_at": "2023-08-13T06:09:52.560Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "471f6c5c-c185-4c3b-80b9-9c892286d0c7",
+        "name": "TechZone Electronics",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T19:05:30.422Z",
+        "updated_at": "2023-08-13T11:01:15.017Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "343d18f0-075f-4a9b-acb3-7738070881fa",
+        "name": "Home Essentials",
+        "address": "321 Pine Road",
+        "created_at": "2023-08-13T12:24:33.668Z",
+        "updated_at": "2023-08-13T20:28:24.359Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "fc0cec90-4e32-40bd-9bc6-676492b42a7c",
+        "name": "Pet Paradise",
+        "address": "654 Maple Court",
+        "created_at": "2023-08-13T19:33:42.536Z",
+        "updated_at": "2023-08-13T13:59:49.520Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "2a4da941-f174-4671-9719-5323f095010f",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-14T03:19:15.280Z",
+        "updated_at": "2023-08-14T04:47:16.378Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "fc0cec90-4e32-40bd-9bc6-676492b42a7c"
+      },
+      {
+        "id": "1cb561cf-4301-44a7-87d1-533108a47dee",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-13T11:55:17.885Z",
+        "updated_at": "2023-08-13T19:44:12.980Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "67559657-9f97-49d2-b873-8f69d09bb4b5"
+      },
+      {
+        "id": "6dcdd620-6c6a-467f-95cf-4b97d2bfac45",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-14T03:05:59.920Z",
+        "updated_at": "2023-08-14T04:03:31.012Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "dc845df9-1202-43b5-a04a-4bacd5fc1676"
+      },
+      {
+        "id": "87398968-5b61-46bc-9f9f-8dd870c390a4",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T17:05:40.051Z",
+        "updated_at": "2023-08-13T23:57:59.220Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "dc845df9-1202-43b5-a04a-4bacd5fc1676"
+      },
+      {
+        "id": "d8fec66c-aea6-4679-b409-f4e1e0ea2a09",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-14T00:29:36.978Z",
+        "updated_at": "2023-08-13T20:57:13.066Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "67559657-9f97-49d2-b873-8f69d09bb4b5"
+      }
+    ],
+    "product": [
+      {
+        "id": "3c0354f4-9bb7-4371-b208-c9a2d89ec44a",
+        "name": "iPhone 12",
+        "price": 16761,
+        "created_at": "2023-08-13T15:39:21.478Z",
+        "updated_at": "2023-08-13T07:26:20.648Z",
+        "store_id": "471f6c5c-c185-4c3b-80b9-9c892286d0c7"
+      },
+      {
+        "id": "35cb2f2a-c4d6-4d66-9373-52f01b28bb52",
+        "name": "Nike Air Max",
+        "price": 61348,
+        "created_at": "2023-08-13T08:43:18.876Z",
+        "updated_at": "2023-08-13T19:20:41.537Z",
+        "store_id": "dc845df9-1202-43b5-a04a-4bacd5fc1676"
+      },
+      {
+        "id": "ef37e602-2597-4905-8963-c7f28280e39a",
+        "name": "Sony PlayStation 5",
+        "price": 42295,
+        "created_at": "2023-08-13T19:46:33.221Z",
+        "updated_at": "2023-08-13T17:36:42.940Z",
+        "store_id": "fc0cec90-4e32-40bd-9bc6-676492b42a7c"
+      },
+      {
+        "id": "f7b4e06f-a882-4640-ac9c-bb6560d08595",
+        "name": "KitchenAid Stand Mixer",
+        "price": 51193,
+        "created_at": "2023-08-13T07:47:11.385Z",
+        "updated_at": "2023-08-14T05:40:51.798Z",
+        "store_id": "471f6c5c-c185-4c3b-80b9-9c892286d0c7"
+      },
+      {
+        "id": "e2151343-4fb9-4e88-bb2a-cfea7738a8c4",
+        "name": "Fitbit Charge 4",
+        "price": 70975,
+        "created_at": "2023-08-13T17:03:46.861Z",
+        "updated_at": "2023-08-13T16:27:11.669Z",
+        "store_id": "dc845df9-1202-43b5-a04a-4bacd5fc1676"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8948f162-78e5-449f-bfd4-601b8f9ea51c",
+        "email": "Barbara72@hotmail.com",
+        "firstName": "Gertrude",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b99d7e8-a099-45dd-91f1-f8c5b8fb8995",
+        "email": "Willard47@yahoo.com",
+        "firstName": "Jorge",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52746067",
+        "tenantId": null
+      },
+      {
+        "reference": "12dc56d6-f14a-4413-b327-77b8029011cd",
+        "email": "Harry.OConnell-Yost50@yahoo.com",
+        "firstName": "Louvenia",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58472701",
+        "tenantId": null
+      },
+      {
+        "reference": "0bb0a2c6-9a52-459e-bdfb-6e53c0901699",
+        "email": "Elyssa81@gmail.com",
+        "firstName": "Reece",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebb18082-6250-4556-9fa2-a4ca14bdb4bd",
+        "email": "Abigayle82@yahoo.com",
+        "firstName": "Kory",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84882115",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "71f20810-ad76-4a64-ae85-9036eb559cba",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T09:05:03.878Z",
+        "updated_at": "2023-08-13T16:08:18.707Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "f14a1c1e-54d6-46cd-aae2-5c7b61a4b95d",
+        "name": "Fashionista",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T20:44:49.066Z",
+        "updated_at": "2023-08-14T02:09:30.601Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "27952ed0-6a67-420e-9f94-bc0821774b73",
+        "name": "TechZone",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T08:56:20.241Z",
+        "updated_at": "2023-08-14T05:27:10.476Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "66b944de-fa91-49eb-a72e-e97b076aa1ba",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-13T11:22:46.011Z",
+        "updated_at": "2023-08-14T00:50:55.218Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "31567637-2377-4f8e-9385-4378ca93303a",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-14T00:42:08.640Z",
+        "updated_at": "2023-08-13T07:40:23.149Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "810953e3-048c-4fea-9fa1-cea55c3c8713",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-14T02:26:49.200Z",
+        "updated_at": "2023-08-14T03:41:12.101Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "27952ed0-6a67-420e-9f94-bc0821774b73"
+      },
+      {
+        "id": "24c2cdf2-a3fd-461a-8b21-deb807986f74",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-14T05:59:38.489Z",
+        "updated_at": "2023-08-14T00:50:33.695Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "27952ed0-6a67-420e-9f94-bc0821774b73"
+      },
+      {
+        "id": "36b7723e-7696-42d8-8fda-e5034884f795",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-13T12:06:52.618Z",
+        "updated_at": "2023-08-13T10:42:54.744Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "31567637-2377-4f8e-9385-4378ca93303a"
+      },
+      {
+        "id": "6a1ea203-4622-4058-902c-87251e5dac1e",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T09:54:20.668Z",
+        "updated_at": "2023-08-13T08:35:11.279Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "66b944de-fa91-49eb-a72e-e97b076aa1ba"
+      },
+      {
+        "id": "8d45af74-e23a-4417-92df-91b734f8032b",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T15:56:16.229Z",
+        "updated_at": "2023-08-13T10:46:56.582Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "71f20810-ad76-4a64-ae85-9036eb559cba"
+      }
+    ],
+    "product": [
+      {
+        "id": "d9da6c56-f36a-4306-817d-77b7f76395a4",
+        "name": "iPhone 12",
+        "price": 21110,
+        "created_at": "2023-08-14T03:03:41.522Z",
+        "updated_at": "2023-08-13T15:47:33.796Z",
+        "store_id": "71f20810-ad76-4a64-ae85-9036eb559cba"
+      },
+      {
+        "id": "cf88b296-9d89-4d3b-a3c5-f882eb800cdf",
+        "name": "Nike Air Max",
+        "price": 26096,
+        "created_at": "2023-08-14T02:02:29.381Z",
+        "updated_at": "2023-08-13T17:51:00.111Z",
+        "store_id": "31567637-2377-4f8e-9385-4378ca93303a"
+      },
+      {
+        "id": "9c353852-e389-4013-bc82-9b78968d0801",
+        "name": "Sony PlayStation 5",
+        "price": 44823,
+        "created_at": "2023-08-14T00:31:34.766Z",
+        "updated_at": "2023-08-13T12:41:56.431Z",
+        "store_id": "71f20810-ad76-4a64-ae85-9036eb559cba"
+      },
+      {
+        "id": "53ac4a66-b091-447c-91c3-dbad9b297f54",
+        "name": "Levi's 501 Jeans",
+        "price": 32524,
+        "created_at": "2023-08-13T14:04:55.859Z",
+        "updated_at": "2023-08-13T22:57:22.275Z",
+        "store_id": "27952ed0-6a67-420e-9f94-bc0821774b73"
+      },
+      {
+        "id": "eb4ef0c4-d395-48b7-9eac-7371a249fe66",
+        "name": "L'Oreal Paris Mascara",
+        "price": 36675,
+        "created_at": "2023-08-13T15:37:12.705Z",
+        "updated_at": "2023-08-13T13:13:49.257Z",
+        "store_id": "f14a1c1e-54d6-46cd-aae2-5c7b61a4b95d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47a33c21-30cc-4a92-846d-dc9717675c20",
+        "email": "Kiley15@hotmail.com",
+        "firstName": "Gina",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30914340",
+        "tenantId": null
+      },
+      {
+        "reference": "a858c9b3-5af9-40ad-a1d5-b3d9812f4604",
+        "email": "Frederique_Bosco81@hotmail.com",
+        "firstName": "Janice",
+        "lastName": "Kohler-Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2876486",
+        "tenantId": null
+      },
+      {
+        "reference": "e85d59fc-ecfc-4a02-8f01-a0bb5daddb9e",
+        "email": "Ophelia.Cassin42@yahoo.com",
+        "firstName": "Thelma",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72838053",
+        "tenantId": null
+      },
+      {
+        "reference": "afb2534d-2491-4ab8-84d3-7e13c9129b4a",
+        "email": "Valerie_Kuhn47@yahoo.com",
+        "firstName": "Citlalli",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98604174",
+        "tenantId": null
+      },
+      {
+        "reference": "5d5b6135-a685-45ca-b030-40ed6e093fbd",
+        "email": "Eddie7@yahoo.com",
+        "firstName": "Amalia",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91491927",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "239603ef-f363-43e2-9bcd-b2b7ce733587",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T17:54:05.148Z",
+        "updated_at": "2023-08-13T18:56:10.112Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "f2fad851-6591-40a4-8f1a-169423cf2b78",
+        "name": "Fashionista",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T13:56:21.861Z",
+        "updated_at": "2023-08-13T13:31:49.913Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2bfb812e-1bff-4a06-a0d2-694e1696aa3b",
+        "name": "TechZone",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T07:55:21.171Z",
+        "updated_at": "2023-08-14T03:49:03.781Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1832a16f-22b3-4bdd-8a02-f4a8525b3ae2",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-13T21:36:54.618Z",
+        "updated_at": "2023-08-13T22:39:51.661Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "45d96a40-3023-4c5d-9541-ca81ac98c418",
+        "name": "Pet Paradise",
+        "address": "654 Pine Court",
+        "created_at": "2023-08-13T06:24:23.385Z",
+        "updated_at": "2023-08-14T04:55:21.480Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "ca444374-c310-42ca-9eb6-0afd775ad6a4",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-14T06:04:02.964Z",
+        "updated_at": "2023-08-13T08:37:34.927Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "45d96a40-3023-4c5d-9541-ca81ac98c418"
+      },
+      {
+        "id": "46add6cc-c591-4623-8d62-0f9cdbaefdb1",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-13T06:23:43.776Z",
+        "updated_at": "2023-08-13T18:40:52.281Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "45d96a40-3023-4c5d-9541-ca81ac98c418"
+      },
+      {
+        "id": "eb587bfc-d546-447f-87fd-a1e573fbba6e",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-13T14:25:46.484Z",
+        "updated_at": "2023-08-13T18:09:39.331Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "1832a16f-22b3-4bdd-8a02-f4a8525b3ae2"
+      },
+      {
+        "id": "64049c31-6db5-446f-b046-991ca09f5df3",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-13T10:02:04.062Z",
+        "updated_at": "2023-08-13T08:41:24.631Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "239603ef-f363-43e2-9bcd-b2b7ce733587"
+      },
+      {
+        "id": "0bd67112-1549-4973-9989-f3ed91c3cc20",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-13T12:36:02.862Z",
+        "updated_at": "2023-08-13T21:44:59.476Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "45d96a40-3023-4c5d-9541-ca81ac98c418"
+      }
+    ],
+    "product": [
+      {
+        "id": "b33af250-9a0e-439f-8f74-81ef22dba437",
+        "name": "iPhone 12",
+        "price": 73988,
+        "created_at": "2023-08-13T06:31:51.420Z",
+        "updated_at": "2023-08-13T17:32:59.501Z",
+        "store_id": "f2fad851-6591-40a4-8f1a-169423cf2b78"
+      },
+      {
+        "id": "0e7162d7-8a21-4569-9c73-59d0ea880bb4",
+        "name": "Nike Air Max",
+        "price": 32436,
+        "created_at": "2023-08-13T07:11:58.482Z",
+        "updated_at": "2023-08-14T02:36:11.331Z",
+        "store_id": "1832a16f-22b3-4bdd-8a02-f4a8525b3ae2"
+      },
+      {
+        "id": "61ae7218-f235-47b4-b1e8-3961ddb4f719",
+        "name": "Sony PlayStation 5",
+        "price": 8302,
+        "created_at": "2023-08-14T00:10:10.264Z",
+        "updated_at": "2023-08-13T19:43:01.257Z",
+        "store_id": "239603ef-f363-43e2-9bcd-b2b7ce733587"
+      },
+      {
+        "id": "f8cdcf62-16ac-45e5-9abf-0ec3e50d3d7c",
+        "name": "Levi's 501 Jeans",
+        "price": 8683,
+        "created_at": "2023-08-13T08:38:37.287Z",
+        "updated_at": "2023-08-14T00:24:26.084Z",
+        "store_id": "2bfb812e-1bff-4a06-a0d2-694e1696aa3b"
+      },
+      {
+        "id": "51037539-6781-49e2-bba4-6a6138f86fc1",
+        "name": "L'Oreal Paris Mascara",
+        "price": 45157,
+        "created_at": "2023-08-13T07:33:18.187Z",
+        "updated_at": "2023-08-13T10:57:32.282Z",
+        "store_id": "239603ef-f363-43e2-9bcd-b2b7ce733587"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b013df29-9821-477a-b6e2-1e1b370acbb8",
+        "email": "Luz55@hotmail.com",
+        "firstName": "Jaquan",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38130493",
+        "tenantId": null
+      },
+      {
+        "reference": "ef3c7f78-b0f2-429d-8c57-27aed4f783ea",
+        "email": "Donnie53@gmail.com",
+        "firstName": "Rita",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19004857",
+        "tenantId": null
+      },
+      {
+        "reference": "ca0bb3f8-1ac7-4bd4-bff1-86aa0bfdd2a1",
+        "email": "Kyla.Quigley58@hotmail.com",
+        "firstName": "Miracle",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/954.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3155b0ba-12fb-4481-b92b-14d0af859ff9",
+        "email": "Carolanne.Wuckert0@yahoo.com",
+        "firstName": "Vernice",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/656.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32bf6b28-3bbc-4647-b7f2-378c35d07fd8",
+        "email": "Carmen_Zemlak34@gmail.com",
+        "firstName": "Rico",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/377.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "acc50071-b545-4e44-b627-c99b854ae35b",
+        "name": "SuperMart",
+        "address": "123 Main Street",
+        "created_at": "2023-08-13T20:26:00.412Z",
+        "updated_at": "2023-08-14T02:24:58.638Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8248de08-7c56-4b54-8618-fb515b4e01cb",
+        "name": "Fashionista Boutique",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-13T06:25:52.208Z",
+        "updated_at": "2023-08-13T16:22:34.207Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "f3d5719b-c49d-4496-932f-0eea98809170",
+        "name": "TechZone Electronics",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-13T13:18:02.578Z",
+        "updated_at": "2023-08-14T04:31:05.809Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8a6cfb86-4c58-4619-ba23-f81c1bff73b8",
+        "name": "Home Essentials",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-13T11:15:03.733Z",
+        "updated_at": "2023-08-14T05:39:48.820Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0ac2d136-6764-4073-b004-b0b6cb161f06",
+        "name": "Pet Paradise",
+        "address": "654 Pine Road",
+        "created_at": "2023-08-13T20:54:08.178Z",
+        "updated_at": "2023-08-13T23:43:56.361Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "receipt": [
+      {
+        "id": "c33d3087-bb42-48e3-8c74-f6ef2bd957e4",
+        "customer_name": "John Doe",
+        "customer_email": "john.doe@example.com",
+        "created_at": "2023-08-13T16:26:51.027Z",
+        "updated_at": "2023-08-14T01:41:46.469Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "f3d5719b-c49d-4496-932f-0eea98809170"
+      },
+      {
+        "id": "35dd820f-9c22-46cd-b3b5-fa47be2e77ba",
+        "customer_name": "Jane Smith",
+        "customer_email": "jane.smith@example.com",
+        "created_at": "2023-08-13T21:08:06.909Z",
+        "updated_at": "2023-08-13T16:48:42.745Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "0ac2d136-6764-4073-b004-b0b6cb161f06"
+      },
+      {
+        "id": "5916889f-af10-49b3-9204-587e1de6210f",
+        "customer_name": "Michael Brown",
+        "customer_email": "michael.brown@example.com",
+        "created_at": "2023-08-14T04:20:36.750Z",
+        "updated_at": "2023-08-14T00:05:10.345Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "8248de08-7c56-4b54-8618-fb515b4e01cb"
+      },
+      {
+        "id": "5761b142-b734-4063-9dd2-6bc91251a9b0",
+        "customer_name": "Sarah Jones",
+        "customer_email": "sarah.jones@example.com",
+        "created_at": "2023-08-14T05:49:54.958Z",
+        "updated_at": "2023-08-14T02:50:18.237Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "8248de08-7c56-4b54-8618-fb515b4e01cb"
+      },
+      {
+        "id": "b6bb8ab7-92d2-4cba-8c4b-66bcb3e650d2",
+        "customer_name": "David Wilson",
+        "customer_email": "david.wilson@example.com",
+        "created_at": "2023-08-14T00:25:11.198Z",
+        "updated_at": "2023-08-13T17:53:02.539Z",
+        "sales_associate_id": "user_entity_pk",
+        "store_id": "acc50071-b545-4e44-b627-c99b854ae35b"
+      }
+    ],
+    "product": [
+      {
+        "id": "9e0c344e-6bd8-4a54-83c2-123940a8ab64",
+        "name": "iPhone 12",
+        "price": 50025,
+        "created_at": "2023-08-14T00:56:19.135Z",
+        "updated_at": "2023-08-13T14:30:33.071Z",
+        "store_id": "8a6cfb86-4c58-4619-ba23-f81c1bff73b8"
+      },
+      {
+        "id": "ad933988-9311-4043-a70f-fb992a3fe94e",
+        "name": "Nike Air Max",
+        "price": 38445,
+        "created_at": "2023-08-14T00:05:29.798Z",
+        "updated_at": "2023-08-13T09:15:24.810Z",
+        "store_id": "8248de08-7c56-4b54-8618-fb515b4e01cb"
+      },
+      {
+        "id": "002a8910-56cb-464b-9b1d-c2f2544a84cb",
+        "name": "Sony PlayStation 5",
+        "price": 99588,
+        "created_at": "2023-08-13T10:02:36.682Z",
+        "updated_at": "2023-08-14T04:56:24.554Z",
+        "store_id": "0ac2d136-6764-4073-b004-b0b6cb161f06"
+      },
+      {
+        "id": "ba25abbe-1dc2-4084-a322-c420d1925f43",
+        "name": "KitchenAid Stand Mixer",
+        "price": 15145,
+        "created_at": "2023-08-13T06:41:12.716Z",
+        "updated_at": "2023-08-13T19:07:53.913Z",
+        "store_id": "acc50071-b545-4e44-b627-c99b854ae35b"
+      },
+      {
+        "id": "99f11fec-2bf3-495b-a756-484132fbfa69",
+        "name": "Fitbit Charge 4",
+        "price": 47398,
+        "created_at": "2023-08-13T20:56:55.257Z",
+        "updated_at": "2023-08-13T08:40:41.168Z",
+        "store_id": "f3d5719b-c49d-4496-932f-0eea98809170"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ea3ff5c8-e608-4376-8e2d-62b34612f2fd",
+        "email": "Woodrow25@gmail.com",
+        "firstName": "Elsie",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9903a483-b97a-4ff1-936c-4dd754f60eb9",
+        "email": "Mariam_Bins@gmail.com",
+        "firstName": "Elsa",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/506.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4d02d07f-9e15-46a2-b86b-a1068dd4a618",
+        "email": "Candido50@gmail.com",
+        "firstName": "Grayson",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66017601",
+        "tenantId": null
+      },
+      {
+        "reference": "c0c84728-4abe-4652-9637-92c742581476",
+        "email": "Alford.Bergstrom@yahoo.com",
+        "firstName": "Aniyah",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62906482",
+        "tenantId": null
+      },
+      {
+        "reference": "39bb5484-2a5f-457e-9cbc-9b1456ad3799",
+        "email": "Cleveland.Abshire16@gmail.com",
+        "firstName": "Bernhard",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1560655",
+        "tenantId": null
+      }
+    ]
+  }
+]
